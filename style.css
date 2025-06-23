@@ -19,7 +19,12 @@ body {
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-/*  min-width: 800px; */
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
@@ -29,14 +34,24 @@ body {
 
 .paper.heart {
   position: relative;
-  width: 200px;
+  width: 300px;
   height: 200px;
-  padding: 0;
-  border-radius: 50%;
+  padding: 20px 100px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .paper.image {
-  padding: 10px;
+  padding: 20px 100px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .paper.image p {
   font-size: 30px;
@@ -69,5 +84,5 @@ p {
   opacity: 0.75;
   user-select: none;
   
-  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+  /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9)); */
 }
